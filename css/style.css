@@ -1,0 +1,28 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*COMMON*/
+
+
+
+/*HEADER*/
+
+header{
+    background-color: #102061;
+    height: 500px;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position:115% 115%;
+}
+
+/*FINE HEADER*/
