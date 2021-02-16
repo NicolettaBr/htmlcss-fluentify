@@ -10,8 +10,34 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+img{
+    display: inline-block;
+    width: 100%;
+}
+
 /*COMMON*/
 
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
 
 
 /*HEADER*/
@@ -23,6 +49,46 @@ header{
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position:115% 115%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;  
+}
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    background-size: 10%;
+}
+
+.menu-center{
+    background-size: 50%;
+    padding: 12px 40px;
+}
+
+.menu-right{
+    background-size: 40%;
+    text-align: right;
+    padding: 12px 50px;
+}
+
+.menu .login{
+    padding: 3px 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.menu .button{
+    padding: 4px 15px;
 }
 
 /*FINE HEADER*/
