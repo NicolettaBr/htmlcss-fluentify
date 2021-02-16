@@ -53,12 +53,40 @@ img{
 
 .col{
     float: left;
+    padding-bottom: 30px;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.img-object-fit{
+    height: 100%;
+    object-fit: cover;  
+}
+
+.img-container{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+
+}
+
+h3{
+    font-size:25px ;
+}
+
+hr{
+    width: 60px;
+    color: black;
+    max-resolution: 20px;
+    margin: 30px auto;
+}
+
+h4{
+    color: grey;
 }
 
 /*HEADER*/
@@ -75,9 +103,7 @@ header{
 .container{
     width: 80%;
     margin: auto;
-     
 }
-
 
 .logo{
     background-size: 10%;
@@ -91,7 +117,7 @@ header{
 .menu-right{
     background-size: 40%;
     text-align: right;
-    padding: 12px 40px;
+    padding: 12px 0px 12px 50px;
 }
 
 .menu .login{
@@ -121,29 +147,25 @@ header{
 
 /*MAIN*/
 
-.grey-block h4{
-    color: grey;
-}
-
-.grey-block h3{
-     font-size:25px ;
-}
 
 .col-left,
 .col-center,
 .col-right{
     width: 30%;
-
 }
 
-.col-left{
-    background-color: red;
-    
-}
+
 .col-center{
-    background-color: blue;
+    margin: 0 5%; 
 }
-.col-right{
-    background-color: pink;
+
+.col h3{
+    color: green;
+    text-align: center;
 }
+
+.col h4{
+    margin: 10px auto;
+}
+
 /*MAIN*/
