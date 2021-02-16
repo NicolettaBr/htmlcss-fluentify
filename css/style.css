@@ -37,6 +37,11 @@ img{
     background-color: green;
     color: white;
     border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+   
 }
 
 
@@ -91,4 +96,17 @@ header{
     padding: 4px 15px;
 }
 
+.teaser{
+    width: 40%;
+    margin-top: 13%;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+
+.teaser .button{
+    padding: 15px 10px;
+    margin-top: 10px;
+}
 /*FINE HEADER*/
